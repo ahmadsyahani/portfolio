@@ -2050,7 +2050,8 @@ a.btn {
 }
 
 .header__logo .header__pic {
-  width: 174px;
+  width: 100px;
+  height: 150px;
 }
 
 .header__social {
@@ -2617,7 +2618,7 @@ a.btn {
 
 .details__title {
   margin-bottom: 72px;
-  font-size: 132px;
+  font-size: 120px;
   line-height: 1.02;
   letter-spacing: -1.3px;
   font-weight: 600;
@@ -4270,14 +4271,16 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 .discover__circles {
   position: absolute;
   top: 0;
-  left: 0;
+  opacity: 40%;
   width: 100%;
+  left: 0%;
+  right: 0;
   height: 100%;
   overflow: hidden;
 }
 
 .discover__circles:before, .discover__circles:after {
-  content: "";
+  content: url('awal masuk 1 Ps.jpg');
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -4295,7 +4298,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 }
 
 .discover__circles:after {
-  right: calc(50% - 1200px);
+  right: calc(80% - 1200px);
   width: 1470px;
   height: 1470px;
 }
